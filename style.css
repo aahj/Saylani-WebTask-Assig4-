@@ -1,0 +1,120 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+/* --------------------slider-------------------- */
+
+#slider img {
+    width: 100%;
+    height: 550px;
+    /* max-height: 250px; */
+}
+
+#slider .carousel-inner h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/*-------------------------about us-----------------*/
+
+#about_section .content1 h1 {
+    text-align: left;
+}
+
+.aboutus-content {
+    font-size: 1.1em;
+    ;
+}
+
+.Aboutus h1 {
+    font-family: 'Engravers MT', sans-serif;
+}
+
+.content1 {
+    outline: 1px solid black;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+.content1 ul {
+    list-style-type: square;
+}
+
+/*-------------------------registration-----------------*/
+
+#registration {
+    padding: 50px;
+}
+
+/*--------------------- footer ---------------------*/
+
+.xx {
+    background-color: #424242;
+    color: #ffff;
+    padding: 100px 50px;
+}
+
+.fab {
+    color: #ffff !important;
+}
+
+/*--------------------- products page* ---------------------*/
+
+.title {
+    padding-bottom: 10px;
+    background-image: linear-gradient(to left, #0000cc, #00cc44);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title::before {
+    content: '';
+    background: #0000cc;
+    height: 5px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    transform: translateY(55px);
+}
+
+.title::after {
+    content: '';
+    background: #0000cc;
+    height: 10px;
+    width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#hardware {
+    padding-bottom: 40px;
+}
+
+#hardware .row {
+    margin-left: 120px;
+}
+
+#software {
+    padding-bottom: 40px;
+}
+
+#software .row {
+    margin-left: 85px;
+}

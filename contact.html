@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CONTACT</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--"full navbar"-->
+    <nav class="navbar navbar-inverse">
+        <!-- <img src="images/Alva Athletics.jpg" class="logo" /> -->
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">HOME<span class="sr-only">(current)</span></a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">PRODUCTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- contact container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="page-header">
+                    <h2>CONTACT DETAILS</h2>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email Address</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>                        
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1" class="col-sm-2 control-label">Your Message</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <!-- Double button -->
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button onclick="popup()" type="submit" class="btn btn-danger btn-block">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <br><br>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424143.27130824584!2d150.65178467500104!3d-33.847927027638306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2s!4v1589103747954!5m2!1sen!2s"
+                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid xx">
+        <div class="row">
+            <div class="col-lg-4">
+                <h3>NEWSLETTER</h3>
+                <form class="form-inline">
+                    <div class="input-group">
+                        <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-danger">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4">
+                <h3>ADDRESS</h3>
+                <p>Block-2 Notrh Nazimabad Karachi, Pakistan </p>
+            </div>
+            <div class="col-lg-4">
+                <h3>CONTACT DETAILS</h3>
+                <p>Call on this Number </p>
+                <h4>0300-xxxxxx</h4>
+            </div>
+        </div>
+        <hr>
+        <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-whatsapp fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-google fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-3x"></i></a></li>
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
